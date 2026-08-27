@@ -16,3 +16,4 @@ twine
 ipykernel
 jupyter
 ruff
+tqdm
