@@ -1,0 +1,48 @@
+# Ignore large data files and processed/results directories
+datasets/processed/
+datasets/raw/**/*.h5
+datasets/raw/**/*.hdf5
+datasets/tau_tests/**/*.h5
+datasets/tau_tests/**/*.hdf5
+results/
+checkpoints/
+ray_results/
+
+# Simulation files
+planck_2018_transfer_z000.dat
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+.venv_unix/
+.venv_windows/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb~
+**/.ipynb_checkpoints
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.log
+*.out
+*.err
+
+# OS
+.DS_Store
+Thumbs.db
