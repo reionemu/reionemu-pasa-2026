@@ -4,7 +4,17 @@ datasets/raw/**/*.h5
 datasets/raw/**/*.hdf5
 datasets/tau_tests/**/*.h5
 datasets/tau_tests/**/*.hdf5
-results/
+
+results/*
+!results/pearce_2026_reionemu_mc_dropout/
+results/pearce_2026_reionemu_mc_dropout/*
+!results/pearce_2026_reionemu_mc_dropout/n_mc_201_epochs_1000_early_stop_150/
+
+artifacts/*
+!artifacts/pearce_2026_reionemu_mc_dropout/
+artifacts/pearce_2026_reionemu_mc_dropout/*
+!artifacts/pearce_2026_reionemu_mc_dropout/mc_dropout_experiment_n_mc_201_epochs_1000_early_stop_150/
+
 checkpoints/
 ray_results/
 
