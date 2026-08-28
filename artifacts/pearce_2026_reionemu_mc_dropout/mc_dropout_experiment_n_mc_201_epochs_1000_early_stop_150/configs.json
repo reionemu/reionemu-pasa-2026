@@ -1,0 +1,64 @@
+{
+    "data_loading": {
+        "dataloader": {
+            "batch_size": 32,
+            "normalize_X": true,
+            "normalize_Y": false,
+            "seed": 42,
+            "shuffle_train": true
+        }
+    },
+    "dataset_prep": {
+        "build_xy": {
+            "cl_group": "cl",
+            "eps": 1e-30,
+            "param_names": [
+                "zmean_zre",
+                "alpha_zre",
+                "kb_zre",
+                "b0_zre"
+            ],
+            "params_group": "params",
+            "sims_group": "sims",
+            "y_source": "dl_ksz",
+            "y_transform": "ln"
+        },
+        "cl": {
+            "ell_cut": 1000.0,
+            "nbins": 5,
+            "overwrite": true,
+            "sims_group": "sims"
+        },
+        "condense": {
+            "overwrite": true,
+            "require_obs_and_pk": true
+        }
+    },
+    "kfold": {
+        "k": 5,
+        "return_histories": true,
+        "seed": 42
+    },
+    "model": {
+        "activation": "relu",
+        "dropout_rate": 0.1,
+        "hidden_dim": 20,
+        "input_dim": 4,
+        "num_hidden_layers": 2,
+        "output_dim": 5
+    },
+    "optimizer": {
+        "lr": 0.001,
+        "name": "AdamW",
+        "weight_decay": 1e-05
+    },
+    "schema_version": 1,
+    "training": {
+        "device": "cpu",
+        "early_stopping_patience": 150,
+        "epochs": 1000,
+        "gradient_clipping": null,
+        "seed": 42
+    },
+    "tuning": null
+}

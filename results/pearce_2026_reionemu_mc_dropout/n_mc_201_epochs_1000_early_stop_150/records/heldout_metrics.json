@@ -1,0 +1,32 @@
+{
+    "best_sim_global_idx": 277,
+    "heldout_chi2": 1500.311279296875,
+    "heldout_coverage_1sigma": 67.10000000000001,
+    "heldout_coverage_2sigma": 89.7,
+    "heldout_coverage_3sigma": 97.1,
+    "heldout_dof": 1000,
+    "heldout_mae": 0.04704128950834274,
+    "heldout_mean_percent_error": 5.11803674697876,
+    "heldout_mean_predictive_std": [
+        0.07654495537281036,
+        0.06435499340295792,
+        0.05234144255518913,
+        0.04592321068048477,
+        0.046784158796072006
+    ],
+    "heldout_mean_predictive_std_overall": 0.057189758867025375,
+    "heldout_mean_signed_z": -0.3589131832122803,
+    "heldout_mse": 0.004599385894834995,
+    "heldout_reduced_chi2": 1.500311255455017,
+    "heldout_rmse": 0.0678187757730484,
+    "heldout_z_percentiles": {
+        "max": 5.70342493057251,
+        "p50": 0.6290678977966309,
+        "p68": 1.0133627653121948,
+        "p90": 2.038408041000366,
+        "p95": 2.6088685989379883,
+        "p99": 3.7979681491851807
+    },
+    "n_mc_samples": 201,
+    "worst_sim_global_idx": 850
+}

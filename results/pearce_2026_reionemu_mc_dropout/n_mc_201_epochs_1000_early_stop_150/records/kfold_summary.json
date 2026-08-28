@@ -1,0 +1,15 @@
+{
+    "final_val_deterministic": 0.003469116147607565,
+    "final_val_mc": 0.0030793132167309524,
+    "fold_best_val": [
+        0.00481940052472055,
+        0.004797382093966007,
+        0.0035798739083111285,
+        0.004126900844275951,
+        0.004479561746120453
+    ],
+    "kfold_evaluation": "evaluate_metrics",
+    "mean_best_val": 0.004360623823478818,
+    "std_best_val": 0.0005195134596248039,
+    "train_evaluation": "evaluate_mc_metrics"
+}

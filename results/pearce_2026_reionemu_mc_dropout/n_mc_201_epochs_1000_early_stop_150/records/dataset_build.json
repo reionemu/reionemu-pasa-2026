@@ -1,0 +1,71 @@
+{
+    "configs": {
+        "build_config": {
+            "cl_group": "cl",
+            "eps": 1e-30,
+            "param_names": [
+                "zmean_zre",
+                "alpha_zre",
+                "kb_zre",
+                "b0_zre"
+            ],
+            "params_group": "params",
+            "sims_group": "sims",
+            "y_source": "dl_ksz",
+            "y_transform": "ln"
+        },
+        "cl_config": {
+            "ell_cut": 1000.0,
+            "nbins": 5,
+            "overwrite": true,
+            "sims_group": "sims"
+        },
+        "condense_config": {
+            "overwrite": true,
+            "require_obs_and_pk": true
+        }
+    },
+    "dataset": {
+        "ell": [
+            2033.496339593671,
+            4093.4152871588512,
+            6153.334234724031,
+            8213.253182289212,
+            10273.172129854393
+        ],
+        "eps": 1e-30,
+        "fingerprint": {
+            "file_size_bytes": 9036718504,
+            "modified_at": "2026-08-27T00:48:25.194188+00:00",
+            "path": "/Users/robertxpearce/Desktop/Research/LEADS Lab/reionemu/reionemu-pasa-2026/datasets/processed/publication_condensed_v6.h5"
+        },
+        "n_parameters": 4,
+        "n_samples": 1000,
+        "n_targets": 5,
+        "param_names": [
+            "zmean_zre",
+            "alpha_zre",
+            "kb_zre",
+            "b0_zre"
+        ],
+        "path": "/Users/robertxpearce/Desktop/Research/LEADS Lab/reionemu/reionemu-pasa-2026/datasets/processed/publication_condensed_v6.h5",
+        "y_source": "dl_ksz",
+        "y_transform": "ln"
+    },
+    "environment": {
+        "h5py": "3.16.0",
+        "numpy": "2.5.2",
+        "python": "3.13.1",
+        "seed": 42
+    },
+    "stats": {
+        "build_xy": 1000,
+        "cl": 1000,
+        "condense": {
+            "skipped_missing_obs_pk": 0,
+            "skipped_read_error": 0,
+            "skipped_validation_error": 0,
+            "written": 1000
+        }
+    }
+}
