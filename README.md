@@ -1,4 +1,4 @@
-# An Uncertainty-Aware Machine Learning Emulator for the Reionization kSZ Power Spectrum
+# An Uncertainty-Aware Machine Learning Emulator for the Reionisation kSZ Power Spectrum
 
 *In preparation for Publications of the Astronomical Society of Australia (PASA)*
 
